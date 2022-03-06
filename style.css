@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form{
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+form h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+form .inputs{
+    display: flex;
+    margin: 20px 0;
+}
+form .inputs input{
+    width: 50%;
+    padding: 15px;
+    font-size: 18px;
+}
+
+form .inputs input:nth-child(1){
+    margin-right: 8px;
+}
+
+
+form .inputs input:nth-child(2){
+    margin-left: 8px;
+}
+
+form button{
+    width: 30%;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    margin: 20px 0;
+}
