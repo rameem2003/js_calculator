@@ -13,43 +13,43 @@ body{
     height: 100vh;
 }
 
-form{
+.form{
     padding: 20px;
     background-color: white;
     border-radius: 8px;
 }
 
-form h1{
+.form h1{
     text-align: center;
     font-size: 45px;
 }
 
-form .inputs{
+.form .inputs{
     display: flex;
     margin: 20px 0;
 }
-form .inputs input{
+.form .inputs input{
     width: 50%;
     padding: 15px;
     font-size: 18px;
 }
 
-form .inputs input:nth-child(1){
+.form .inputs input:nth-child(1){
     margin-right: 8px;
 }
 
 
-form .inputs input:nth-child(2){
+.form .inputs input:nth-child(2){
     margin-left: 8px;
 }
 
-form select{
+.form select{
     width: 100%;
     padding: 15px;
     font-size: 18px;
 }
 
-form button{
+.form button{
     display: block;
     width: 30%;
     font-size: 25px;
@@ -60,7 +60,7 @@ form button{
     margin: 20px auto;
 }
 
-form #p{
+.form p{
     font-size: 25px;
     text-align: center;
 }
