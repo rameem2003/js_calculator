@@ -6,7 +6,7 @@ run.addEventListener("click", ()=> {
     var num2 = parseInt(document.getElementById("num2").value);
     var output = document.getElementById("result");
 
-    if(num1 != "" && num2 != ""){
+    if(Number.isInteger(num1) && Number.isInteger(num2)){
         var op = document.getElementById("op").value;
 
         switch(op){
