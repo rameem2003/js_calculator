@@ -4,10 +4,11 @@ var run = document.getElementById("run");
 run.addEventListener("click", ()=> {
     var num1 = parseInt(document.getElementById("num1").value);
     var num2 = parseInt(document.getElementById("num2").value);
-    var op = document.getElementById("op").value;
     var output = document.getElementById("result");
 
     if(num1 != "" && num2 != ""){
+        var op = document.getElementById("op").value;
+
         switch(op){
             case "add":
                 var add = num1 + num2;
@@ -36,4 +37,4 @@ run.addEventListener("click", ()=> {
     }else{
         output.innerHTML = "Input empty";
     }
-})
+});
