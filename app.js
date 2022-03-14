@@ -35,6 +35,6 @@ run.addEventListener("click", ()=> {
                 break;
         }
     }else{
-        output.innerHTML = "Input empty";
+        output.innerHTML = "Input fields are empty";
     }
 });
